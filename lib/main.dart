@@ -1,7 +1,7 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 
-import 'package:animation/walk.dart';
+import 'package:animation/sample.dart';
 
 void main() => runApp(const App());
 
@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: GameWidget(
-          game: Walk(),
+          game: Sample(),
         ),
       ),
     );
